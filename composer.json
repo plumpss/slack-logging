@@ -1,0 +1,19 @@
+{
+    "name": "plumpss/slacklogging",
+    "description": "Publish SilverStripe errors and warnings into a Slack channel via an incoming webhook.",
+    "type": "silverstripe-module",
+	"license": "MIT",
+	"keywords": ["silverstripe", "log", "logging", "error", "reporting", "slack"],
+    "authors": [
+        {
+            "name": "James Howard",
+            "email": "james@plumpdigital.co.uk"
+        }
+    ],
+    "require" : {
+		"silverstripe/framework": "~3.1"
+	},
+	"extra" : {
+		"installer-name": "plumpss-slacklogging"
+	}
+}
