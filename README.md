@@ -8,5 +8,5 @@ Use Slack's 'Incoming WebHooks' app to add a webhook to post into the channel of
 
 ```yaml
 SS_LogSlackWriter:
-  webhook: '{your-webhook-url'
+  webhook: '{your-webhook-url}'
 ```
