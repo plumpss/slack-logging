@@ -40,7 +40,9 @@ class SS_LogSlackWriter extends Zend_Log_Writer_Abstract {
 				'channel'    => Config::inst()->get('SS_LogSlackWriter', 'channel'),
 				'username'   => 'problembot',
 				'text'       => $formattedData,
-				'icon_emoji' => ':warning:'
+                'icon_emoji' => ':warning:',
+                'unfurl_links' => false,
+                'unfurl_media' => false
 			));
 
 			$ch = curl_init($webhookUrl);
